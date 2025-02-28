@@ -1,0 +1,49 @@
+---------------------------------
+
+To Do:
+
+- Schedule daily backups of database and price table
+
+- Request higher limit from PSA API
+
+- Create PSA table, start requesting info on cards (current limit is 100 / day)
+
+- Find missing tcg_ids for cards (about 250)
+
+- Display PSA info on individual card pages
+
+- Make card art larger for individual card pages
+
+- Ebay API (Get links for individual cards, display on card profiles)
+---------------------------------------------------------------------------------
+Collections: 
+
+- Personal collections should be in the user's profile page, not on the home page
+
+- Make user profile more stylish
+
+- Display pricing on personal collections
+
+- If a card has multiple type (for pricing), it will ask the user what type the card is (foil, etc.)
+
+
+
+
+
+---------------------------------------------------------------------------------
+USER ACCOUNTS: 
+
+Short Term: Use temporary hard-coded values (like setting is_admin=True for testing) so you can build and test 
+other features, such as the collection functionality.
+
+Medium Term: Once your core features are stable, implement a basic registration and login system (using Flask‑Login, as we discussed). 
+This will let you test admin versus regular user behavior under realistic conditions.
+
+Long Term: Fully integrate the account system with proper security (hashed passwords, database user management, etc.) and a robust admin panel.
+
+---------------------------------------------------------------------------------
+Later Ideas: 
+- Create a binder/pokemon card collection. Select bind size (such as 4x5) and number of pages.
+Pick cards from the database to organize your collection and decide how you want to display your collection
+
+- News section for new releases (including other languages). Also posts for "Card list for set revealed!" 
